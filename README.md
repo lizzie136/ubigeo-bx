@@ -31,7 +31,7 @@ __DEPARTAMENTO__
 __PROVINCIA__
 
 |Código |Nombre |Código Padre | Descripción Padre |
-|----------|-------|-------|-------------|--------|
+-------|-------|-------------|--------|
 |50|Lima|01|Lima|
 |51|Barranca|01|Lima|
 |63|Arequipa|02|Arequipa
