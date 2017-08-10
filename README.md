@@ -22,12 +22,14 @@ A continuación, se indica la información que llega en el archivo plano.
 Esta información debe ser leída y por cada línea aplicar la lógica necesaria para agrupar en tres estructuras diferentes el departamento, provincia y distrito. Por ejemplo:
 
 __DEPARTAMENTO__
+
 |Código        |Nombre |Código Padre|Descripción Padre|
 | -------------|-------|------------|-----------------|
 |01|Lima|-|-|
 |02|Arequipa|-|-|
  
 __PROVINCIA__
+
 |Código |Nombre |Código Padre | Descripción Padre |
 |----------|-------|-------|-------------|--------|
 |50|Lima|01|Lima|
@@ -36,6 +38,7 @@ __PROVINCIA__
 |64|Caylloma|02|Arequipa
  
 __DISTRITO__
+
 |Código |Nombre |Código Padre| Descripción Padre|
 |-------|-------|------------|------------------|
 |202 | La Molina |50 | Lima
