@@ -1,5 +1,6 @@
 Tiene una lista de ubigeos (Departamento / Provincia / Distrito) que está en un archivo plano, se necesita que desarrolles el código para convertir esta lista a estructura (por ejemplo, un listas, arreglo, diccionario…).  Esto puede ser en el lenguaje que prefieras, Javascript o algún otro framework de front end.
 A continuación, se indica la información que llega en el archivo plano.
+
 “01 Lima /  / ”
 
 “01 Lima / 50 Lima / ”
