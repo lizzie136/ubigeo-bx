@@ -4,16 +4,18 @@
         <title></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Oswald" rel="stylesheet">
         <link href="assets/css/main.css" rel="stylesheet">
     </head>
     <body>
         <header>
-            <form>
-                <input type="file" name="load-file" value="load-file">
-                <button type="submit" id="load-btn">Cargar</button>
+            <form class="container form upload-form">
+                <input type="file" name="load-file" value="load-file" placeholder="Archivo con ubigeos">
+                <br>
+                <button type="submit" id="load-btn">Subir</button>
             </form>
         </header>
-        <div id="info"></div>
+        <div id="info" class="container"></div>
         <script src="assets/js/components/table.js" type="text/javascript"></script>
         <script src="assets/js/app.js" type="text/javascript"></script>
     </body>

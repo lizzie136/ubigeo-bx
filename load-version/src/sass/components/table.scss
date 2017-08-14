@@ -1,0 +1,25 @@
+%tborder {
+  //  border: 1px solid $color-light-gray;
+  margin: auto;
+  padding: 3px 10px;
+  text-align: left;
+}
+
+table {
+    @extend %tborder;
+
+    thead {
+        font-family: $font-sans-serif;
+        th{
+            @extend %tborder;
+            font-size: 1.3em;
+        }
+    }
+
+    tbody{
+        font-family: $font-serif;
+        td {
+            @extend %tborder;
+        }
+    }
+}

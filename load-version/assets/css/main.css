@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Oswald", sans-serif;
+  text-align: center; }
+
+.container {
+  margin: auto;
+  width: 80%; }
+
+table, table thead th, table tbody td {
+  margin: auto;
+  padding: 3px 10px;
+  text-align: left; }
+
+table thead {
+  font-family: "Oswald", sans-serif; }
+  table thead th {
+    font-size: 1.3em; }
+table tbody {
+  font-family: "Droid Serif", serif; }
+
+form {
+  text-align: center; }
+  form input {
+    font-family: "Oswald", sans-serif;
+    border: 1px solid #DEDADE;
+    border-radius: 0px;
+    font-size: 1em;
+    line-height: 1em;
+    width: 40%;
+    vertical-align: middle;
+    margin: auto; }
+  form button {
+    border: 1px solid #DEDADE;
+    border-radius: 0px;
+    background: #DEDADE;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin: auto;
+    width: 40%; }
+
+/*# sourceMappingURL=main.css.map */

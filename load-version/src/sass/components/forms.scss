@@ -1,0 +1,25 @@
+// -- FORMS ---
+form {
+    text-align: center;
+    input {
+        font-family: $font-sans-serif;
+        border: 1px solid $color-gray;
+        border-radius: 0px;
+        font-size: 1em;
+        line-height: 1em;
+        width: 40%;
+        vertical-align: middle;
+        margin: auto;
+    }
+
+    button {
+        border: 1px solid $color-gray;
+        border-radius: 0px;
+        background: $color-gray;
+        font-size: 1.2em;
+        line-height: 1.5em;
+        margin: auto;
+        width: 40%;
+    }
+
+}
